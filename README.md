@@ -9,6 +9,8 @@ for usage in the cern swan infrastructure.
  1) Inside swan, open a terminal and run:
   ```
 pip install --user awkward --upgrade
+pip install --user pyarrow --upgrade
+pip install --user vector
 ```
  2) Restart swan afterwards with the following configuration:
 
