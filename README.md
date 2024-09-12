@@ -28,7 +28,7 @@ It is recommended to request access to a GPU via the cern service portal as 32 G
 The notebooks are intended to be run in the following order:
 1) ```smallnetdata.ipynb```
 2) ```smallnet_modeltraining.ipynb```
-3) ```rte.ipynb```
+3) ```rte.ipynb``` To get the rate plots this file has to be run with ``` sample = "MinBias" ```
 
 
 to evaluate the performance and produce the plots, run:
