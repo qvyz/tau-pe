@@ -37,7 +37,7 @@ to evaluate the performance and produce the plots, run:
 cd tau-pe
 unset PYTHONHOME && unset PYTHONPATH && cd Phase2-L1MenuTools/
 . menuenv/bin/activate
-
+cp ../taus.yaml configs/V37nano/objects/taus.yaml
 cp ../taus_rate.yaml configs/V37nano/rate_plots/
 rate_plots configs/V37nano/rate_plots/taus_rate.yaml 
 cp ../gttau_matching.yaml configs/V37nano/object_performance/
